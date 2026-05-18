@@ -1,0 +1,30 @@
+% !TeX TXS-program:compile = txs:///lualatex/[--shell-escape]
+\documentclass[a4paper,14pt,russian]{extreport}
+
+\input{preambule.inc}
+\addbibresource{biblio.bib}
+\begin{document}
+	%\includepdf{title.pdf}
+	% \includepdf[pages=-]{calendar.pdf}
+    % \the\cftsubsecindent
+	\setcounter{page}{5}
+	\include{01-abstract}
+	\renewcommand{\contentsname}{\centerline{СОДЕРЖАНИЕ}} % Переименовать table of contents
+    \tableofcontents
+
+
+	\include{02-naming}
+	\include{03-intro}
+	\include{10-analysis}
+	\include{20-design}
+	\include{30-technology}
+	\include{40-research}
+	\include{50-conclusion}
+	% \include{60-bibliography}
+
+    \printbibliography[title=\centerline{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}]
+	\addcontentsline{toc}{part}{\textbf{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
+	\include{70-application}
+	% \include{71-application}
+	% \include{72-application}
+\end{document}

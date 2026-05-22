@@ -1,0 +1,50 @@
+--- /data/zyldata/101/Movenet7f4attention_adaption.py
++++ /data/zyldata/101/Movenet7f4attention_adaption.py
+@@ -287,9 +287,8 @@
+         DL44b = self.deconv44b(DL44_add)
+         DL44bada = DL44b + DL44_add
+         DL4_cat = torch.cat([DL4_add, L4c, DL44bada], 1)
+-        # DL4_att = self.att4(DL4_cat)
+-        # DL4b = self.deconv4b(DL4_att)
+-        DL4b = self.deconv4b(DL4_cat)
++        DL4_att = self.att4(DL4_cat)
++        DL4b = self.deconv4b(DL4_att)
+ 
+         DL3 = self.deconv3(DL4b)
+         DL3_add = DL3 + L3
+@@ -299,9 +298,8 @@
+         DL33ba = self.deconv33ada(DL33b)
+         DL33bada = DL33ba + DL33b
+         DL3_cat = torch.cat([DL3_add, L3c, DL33bada], 1)
+-        # DL3_att = self.att3(DL3_cat)
+-        # DL3b = self.deconv3b(DL3_att)
+-        DL3b = self.deconv3b(DL3_cat)
++        DL3_att = self.att3(DL3_cat)
++        DL3b = self.deconv3b(DL3_att)
+ 
+         DL2 = self.deconv2(DL3b)
+         DL2_add = DL2 + L2
+@@ -311,9 +309,8 @@
+         DL22ba = self.deconv22ada(DL22b)
+         DL22bada = DL22ba + DL22_add
+         DL2_cat = torch.cat([DL2_add, L2c, DL22bada], 1)
+-        # DL2_att = self.att2(DL2_cat)
+-        # DL2b = self.deconv2b(DL2_att)
+-        DL2b = self.deconv2b(DL2_cat)
++        DL2_att = self.att2(DL2_cat)
++        DL2b = self.deconv2b(DL2_att)
+ 
+         DL1 = self.deconv1(DL2b)
+         DL1_add = DL1 + L1
+@@ -323,9 +320,8 @@
+         DL11ba = self.deconv11ada(DL11b)
+         DL11bada = DL11ba + DL11b
+         DL1_cat = torch.cat([DL1_add, L1c, DL11bada], 1)
+-        # DL1_att = self.att1(DL1_cat)
+-        # DL1b = self.deconv1b(DL1_att)
+-        DL1b = self.deconv1b(DL1_cat)
++        DL1_att = self.att1(DL1_cat)
++        DL1b = self.deconv1b(DL1_att)
+ 
+         end = self.conv_end(DL1b)
+         end_label_edge = self.conv_end_label_edge(DL1b)

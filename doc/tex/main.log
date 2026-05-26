@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.12)  25 MAY 2026 23:59
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.12)  26 MAY 2026 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1676,7 +1676,8 @@ Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (main.aux
-(01-abstract.aux) (03-intro.aux) (10-analysis.aux) (70-application.aux))
+(01-abstract.aux) (03-intro.aux) (10-analysis.aux) (20-design.aux)
+(40-research.aux) (50-conclusion.aux) (70-application.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1875,17 +1876,17 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
 (Font)              size <17.28> substituted on input line 1.
 
-)
+[6
+
+
+])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [6
-
-
-]
+ [7]
 \openout2 = `03-intro.aux'.
 
- (03-intro.tex) [7
+ (03-intro.tex) [8
 
 
 ]
@@ -1895,109 +1896,221 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
 Глава 1.
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
 1.
-[8
+[9
 
 
 
 
-] [9] [10] [11] [12] [13]
-Underfull \hbox (badness 1360) in paragraph at lines 90--91
-[]\TU/TimesNewRoman(1)/m/n/14.4 Наиболее популярным дескриптором для таких зада
-ч является SIFT
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 92--93
-[]\TU/TimesNewRoman(1)/m/n/14.4 Альтернативным дескриптором является SURF (Spee
-ded-Up Robust
- []
-
-[14]
-Underfull \hbox (badness 7151) in paragraph at lines 98--99
-\TU/TimesNewRoman(1)/m/n/14.4 занных недостатков. Например, подход, основанный 
-на плотных SIFT-
- []
-
-[15] [16]
-Underfull \hbox (badness 3942) in paragraph at lines 112--113
-[]\TU/TimesNewRoman(1)/m/n/14.4 Для борьбы с разнообразием типов подделок (copy
--move, splicing,
- []
-
-[17] [18]
-Underfull \hbox (badness 1394) in paragraph at lines 124--125
-\TU/TimesNewRoman(1)/m/n/14.4 подделанного фрагмента. В отличие от бинарной кла
-ссификации (поддел-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+] [10] [11] [12] [13] [14] [15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\TU/TimesNewRoman(1)/m/it/14.4 Устойчивость
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\TU/TimesNewRoman(1)/m/it/14.4 Обобщающая
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 140--140
+Underfull \hbox (badness 3108) in paragraph at lines 137--137
 []|\TU/TimesNewRoman(1)/m/n/14.4 Метод на основе
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 141--141
+Underfull \hbox (badness 3108) in paragraph at lines 138--138
 []|\TU/TimesNewRoman(1)/m/n/14.4 Метод на основе
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 141--141
+Underfull \hbox (badness 4353) in paragraph at lines 138--138
 \TU/TimesNewRoman(1)/m/n/14.4 поиска ключевых
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\TU/TimesNewRoman(1)/m/n/14.4 Однопоточная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \TU/TimesNewRoman(1)/m/n/14.4 сверточная ней-
  []
 
 
-Overfull \hbox (8.3661pt too wide) in paragraph at lines 142--142
+Overfull \hbox (8.3661pt too wide) in paragraph at lines 139--139
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\TU/TimesNewRoman(1)/m/n/14.4 Многопоточная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 \TU/TimesNewRoman(1)/m/n/14.4 сверточная ней-
  []
 
 
-Overfull \hbox (8.3661pt too wide) in paragraph at lines 143--143
+Overfull \hbox (8.3661pt too wide) in paragraph at lines 140--140
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
 
-Overfull \hbox (8.3661pt too wide) in paragraph at lines 143--143
+Overfull \hbox (8.3661pt too wide) in paragraph at lines 140--140
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
-[20]) [21] [22
+[18] [19]
+File: ./img/idef0.png Graphic file (type bmp)
+<./img/idef0.png>
+) [20]
+\openout2 = `20-design.aux'.
+
+ (20-design.tex
+Глава 2.
+[21
+
 
 
 
 ]
+File: ./img/idef0-1.png Graphic file (type bmp)
+<./img/idef0-1.png>
+File: ./img/preprocessing.png Graphic file (type bmp)
+<./img/preprocessing.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]
+File: ./img/algorithm.png Graphic file (type bmp)
+<./img/algorithm.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23] [24]
+File: ./img/cnn.png Graphic file (type bmp)
+<./img/cnn.png>
+ [25]
+File: ./img/down.png Graphic file (type bmp)
+<./img/down.png>
+File: ./img/fal.png Graphic file (type bmp)
+<./img/fal.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26]
+File: ./img/seam.png Graphic file (type bmp)
+<./img/seam.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27] [28]
+File: ./img/model1.png Graphic file (type bmp)
+<./img/model1.png>
+File: ./img/module-user.png Graphic file (type bmp)
+<./img/module-user.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29]) [30]
+\openout2 = `40-research.aux'.
+
+ (40-research.tex
+Глава 3.
+
+Underfull \hbox (badness 2717) in paragraph at lines 5--6
+[]\TU/TimesNewRoman(1)/m/n/14.4 Поскольку задача обнаружения фальсифицированног
+о фрагмента на
+ []
+
+[31
+
+
+
+
+] [32]
+File: ./img/seam_test.png Graphic file (type bmp)
+<./img/seam_test.png>
+ [33]
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(1)/m/n/14.4 Без использования слоев
+ []
+
+File: ./img/fal_test.png Graphic file (type bmp)
+<./img/fal_test.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34] [35] [36]
+File: ./img/jpeg.png Graphic file (type bmp)
+<./img/jpeg.png>
+ [37]) [38]
+\openout2 = `50-conclusion.aux'.
+
+ (50-conclusion.tex) [39
+
+
+
+
+]
+Underfull \hbox (badness 3189) in paragraph at lines 25--25
+[]\TU/TimesNewRoman(1)/m/it/14.4 Birajdar G.\TU/TimesNewRoman(1)/m/n/14.4 , \TU
+/TimesNewRoman(1)/m/it/14.4 Mankar V. \TU/TimesNewRoman(1)/m/n/14.4 Digital ima
+ge forgery detection using passive
+ []
+
+[40
+
+
+
+]
+Underfull \hbox (badness 3449) in paragraph at lines 25--25
+[]\TU/TimesNewRoman(1)/m/it/14.4 Lowe D. \TU/TimesNewRoman(1)/m/n/14.4 Distinct
+ive Image Features from Scale-Invariant Keypoints []
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 25--25
+[]\TU/TimesNewRoman(1)/m/n/14.4 An Evaluation of Popular Copy-Move Forgery Dete
+ction Approaches /
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 25--25
+\TU/TimesNewRoman(1)/m/n/14.4 V. Christlein [и др.] [] IEEE Transactions on Inf
+ormation Forensics and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]\TU/TimesNewRoman(1)/m/it/14.4 Lowe D. \TU/TimesNewRoman(1)/m/n/14.4 Object R
+ecognition from Local Scale-Invariant Features []
+ []
+
+[41]
+Underfull \hbox (badness 1014) in paragraph at lines 25--25
+[]\TU/TimesNewRoman(1)/m/it/14.4 Ronneberger O.\TU/TimesNewRoman(1)/m/n/14.4 , 
+\TU/TimesNewRoman(1)/m/it/14.4 Fischer P.\TU/TimesNewRoman(1)/m/n/14.4 , \TU/Ti
+mesNewRoman(1)/m/it/14.4 Brox T. \TU/TimesNewRoman(1)/m/n/14.4 U-Net: Convoluti
+onal Networks for
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 25--25
+\TU/TimesNewRoman(1)/m/n/14.4 Biomedical Image Segmentation []. — Springer Inte
+rnational Publishing,
+ []
+
+[42]
 \openout2 = `70-application.aux'.
 
- (70-application.tex) [23
+ (70-application.tex) [43
 
 
 ]
@@ -2007,8 +2120,8 @@ See the caption package documentation for explanation.
 
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(main.aux (01-abstract.aux) (03-intro.aux) (10-analysis.aux)
-(70-application.aux))
+(main.aux (01-abstract.aux) (03-intro.aux) (10-analysis.aux) (20-design.aux)
+(40-research.aux) (50-conclusion.aux) (70-application.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -2018,19 +2131,34 @@ L3 programming layer <2026-03-20>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3436F77867CD71BB669227CAE3D9F63F;5400.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: C28F9A2CB9E4EFAD00854AB1B0007471;10896
+(rerunfilecheck)             After:  A2AA32AD66C18445D7A43A5D01F134F3;10890.
+
+Package biblatex Warning: Please rerun LaTeX.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56019 strings out of 402806
- 1280823 string characters out of 5449461
- 2699693 words of memory out of 5000000
- 84134 multiletter control sequences out of 15000+600000
+ 56297 strings out of 402806
+ 1287706 string characters out of 5449461
+ 2718699 words of memory out of 5000000
+ 84377 multiletter control sequences out of 15000+600000
  633100 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,11n,111p,1183b,6028s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,11n,111p,1311b,6028s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (19 pages).
+Output written on main.pdf (39 pages).

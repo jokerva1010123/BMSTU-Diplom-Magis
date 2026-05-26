@@ -85,7 +85,6 @@
       \verb{doi}
       \verb 10.1109/JSTSP.2020.3002101
       \endverb
-      \keyw{Media;Forensics;Generative adversarial networks;Digital forensics;Information integrity;Videos;Deep learning;Deep learning;deepfakes;digital image forensics;video forensics}
     \endentry
     \entry{3}{article}{}{}
       \name{author}{2}{}{%
@@ -158,7 +157,7 @@
       \field{internalsortvolume}{6072}
       \field{journaltitle}{Proceedings of SPIE - The International Society for Optical Engineering}
       \field{month}{02}
-      \field{title}{Detecting digital image forgeries using sensor pattern noise - art. no. 60720Y}
+      \field{title}{Detecting digital image forgeries using sensor pattern noise}
       \field{year}{2006}
       \field{pages}{362\bibrangedash 372}
       \range{pages}{11}
@@ -362,6 +361,775 @@
       \verb{doi}
       \verb 10.1561/0600000096
       \endverb
+    \endentry
+    \entry{10}{article}{useauthor=false}{}
+      \name{author}{4}{}{%
+        {{hash=67d85fe9da377c05e794ffdad3b680ab}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Mo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0b7ff038c1a27c940c01a4fd0cc68365}{%
+           family={Fridrich},
+           familyi={F\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc51bff58ab51b5b547dede064993421}{%
+           family={Goljan},
+           familyi={G\bibinitperiod},
+           given={Miroslav},
+           giveni={M\bibinitperiod}}}%
+        {{hash=406984a0e2ed9155ca5373538b53536e}{%
+           family={Lukas},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{065275507176faa016db95dbb6f19263}
+      \strng{authornamehash}{065275507176faa016db95dbb6f19263}
+      \strng{authorfullhash}{47501bb97e85f8463fbc55e14df8d3d9}
+      \strng{authorfullhashraw}{47501bb97e85f8463fbc55e14df8d3d9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{3}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{title}{Determining Image Origin and Integrity Using Sensor Noise}
+      \field{year}{2008}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{74\bibrangedash 90}
+      \range{pages}{17}
+      \field{volume}{3}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/TIFS.2007.916285
+      \endverb
+    \endentry
+    \entry{11}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=eae4adbe9e73e4595080f1329cc87477}{%
+           family={Bianchi},
+           familyi={B\bibinitperiod},
+           given={Tiziano},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cc6e155969b6f40f3c2cf03331765418}{%
+           family={Piva},
+           familyi={P\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f12392daea1502ed1a432537c21f429}
+      \strng{fullhash}{6f12392daea1502ed1a432537c21f429}
+      \strng{fullhashraw}{6f12392daea1502ed1a432537c21f429}
+      \strng{bibnamehash}{6f12392daea1502ed1a432537c21f429}
+      \strng{authorbibnamehash}{6f12392daea1502ed1a432537c21f429}
+      \strng{authornamehash}{6f12392daea1502ed1a432537c21f429}
+      \strng{authorfullhash}{6f12392daea1502ed1a432537c21f429}
+      \strng{authorfullhashraw}{6f12392daea1502ed1a432537c21f429}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{7}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{title}{Detection of Nonaligned Double JPEG Compression Based on Integer Periodicity Maps}
+      \field{year}{2012}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{842\bibrangedash 848}
+      \range{pages}{7}
+      \field{volume}{7}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/TIFS.2011.2170836
+      \endverb
+    \endentry
+    \entry{12}{article}{useauthor=false}{}
+      \name{author}{4}{}{%
+        {{hash=2dd4f4c42ba63810a06ce8f980e77864}{%
+           family={Ferrara},
+           familyi={F\bibinitperiod},
+           given={Pasquale},
+           giveni={P\bibinitperiod}}}%
+        {{hash=eae4adbe9e73e4595080f1329cc87477}{%
+           family={Bianchi},
+           familyi={B\bibinitperiod},
+           given={Tiziano},
+           giveni={T\bibinitperiod}}}%
+        {{hash=493d03d3cfad0efadf3f20a8d50715d2}{%
+           family={De\bibnamedelima Rosa},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alessia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cc6e155969b6f40f3c2cf03331765418}{%
+           family={Piva},
+           familyi={P\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{e6824472b1801c0c0fa116dc4028a5e9}
+      \strng{authornamehash}{e6824472b1801c0c0fa116dc4028a5e9}
+      \strng{authorfullhash}{7ec108b4cac30baa773e761fe5c31c2d}
+      \strng{authorfullhashraw}{7ec108b4cac30baa773e761fe5c31c2d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{7}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{title}{Image Forgery Localization via Fine-Grained Analysis of CFA Artifacts}
+      \field{year}{2012}
+      \field{number}{5}
+      \range{number}{1}
+      \field{pages}{1566\bibrangedash 1577}
+      \range{pages}{12}
+      \field{volume}{7}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/TIFS.2012.2202227
+      \endverb
+    \endentry
+    \entry{14}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e64010314c19be3da24d7e3854c7a0e6}{%
+           family={Lowe},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{fullhash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{fullhashraw}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{bibnamehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authorbibnamehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authornamehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authorfullhash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authorfullhashraw}{e64010314c19be3da24d7e3854c7a0e6}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{60}
+      \field{journaltitle}{International Journal of Computer Vision}
+      \field{month}{11}
+      \field{title}{Distinctive Image Features from Scale-Invariant Keypoints}
+      \field{year}{2004}
+      \field{pages}{91\bibrangedash 110}
+      \range{pages}{20}
+      \field{volume}{60}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1023/B%3AVISI.0000029664.99615.94
+      \endverb
+    \endentry
+    \entry{15}{article}{useauthor=false}{}
+      \name{author}{5}{}{%
+        {{hash=f09f7eb62d827406dedc9efd01fc862a}{%
+           family={Christlein},
+           familyi={C\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c3d772fd5167d4c651b648170ad5fe52}{%
+           family={Riess},
+           familyi={R\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f1d581b58d6e560e4e589f7b586cdeaf}{%
+           family={Jordan},
+           familyi={J\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3f41856fbaeba5a1befac72cd2652423}{%
+           family={Riess},
+           familyi={R\bibinitperiod},
+           given={Corinna},
+           giveni={C\bibinitperiod}}}%
+        {{hash=92efd3cf3f31aa36467218f0125f24e8}{%
+           family={Angelopoulou},
+           familyi={A\bibinitperiod},
+           given={Elli},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{authorbibnamehash}{d20d917d29cf860b430cd91c4336b4e0}
+      \strng{authornamehash}{d20d917d29cf860b430cd91c4336b4e0}
+      \strng{authorfullhash}{c3bc3d13b53b57c3f7239b6589029964}
+      \strng{authorfullhashraw}{c3bc3d13b53b57c3f7239b6589029964}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{7}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{month}{12}
+      \field{title}{An Evaluation of Popular Copy-Move Forgery Detection Approaches}
+      \field{year}{2012}
+      \field{pages}{1841\bibrangedash 1854}
+      \range{pages}{14}
+      \field{volume}{7}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/tifs.2012.2218597
+      \endverb
+    \endentry
+    \entry{13}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e64010314c19be3da24d7e3854c7a0e6}{%
+           family={Lowe},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{fullhash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{fullhashraw}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{bibnamehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authorbibnamehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authornamehash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authorfullhash}{e64010314c19be3da24d7e3854c7a0e6}
+      \strng{authorfullhashraw}{e64010314c19be3da24d7e3854c7a0e6}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{2}
+      \field{journaltitle}{Proceedings of the IEEE International Conference on Computer Vision}
+      \field{month}{01}
+      \field{title}{Object Recognition from Local Scale-Invariant Features}
+      \field{year}{2001}
+      \field{volume}{2}
+      \range{volume}{1}
+    \endentry
+    \entry{16}{inproceedings}{useauthor=false}{}
+      \name{author}{5}{}{%
+        {{hash=340910ad21515da226deccbe9de84035}{%
+           family={Amerini},
+           familyi={A\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7df8548b5904fc2351c3211293b17048}{%
+           family={Ballan},
+           familyi={B\bibinitperiod},
+           given={Lamberto},
+           giveni={L\bibinitperiod}}}%
+        {{hash=430f0be175c6bebd7964a42b524d917b}{%
+           family={Caldelli},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=20db68b33ce9530f55f14524fbfb14a2}{%
+           family={Del\bibnamedelima Bimbo},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=03c8eb0963691ab5b958d966ca5c40b7}{%
+           family={Serra},
+           familyi={S\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{0d272f3cad9442786c2665df60d5ef5f}
+      \strng{authornamehash}{0d272f3cad9442786c2665df60d5ef5f}
+      \strng{authorfullhash}{a2d52fe02caf05f93bfd72e8b7a522ed}
+      \strng{authorfullhashraw}{a2d52fe02caf05f93bfd72e8b7a522ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{title}{Geometric tampering estimation by means of a SIFT-based forensic analysis}
+      \field{year}{2010}
+      \field{pages}{1702\bibrangedash 1705}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICASSP.2010.5495485
+      \endverb
+    \endentry
+    \entry{17}{article}{useauthor=false}{}
+      \name{author}{7}{}{%
+        {{hash=973b2f9cdd4989f2542eabee7daf58a3}{%
+           family={Abd\bibnamedelima Warif},
+           familyi={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Nor},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f0e5938105e716768ac362b0ce864783}{%
+           family={Wahid},
+           familyi={W\bibinitperiod},
+           given={Ainuddin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b810a539fade45f0b328b46f558924f2}{%
+           family={Idris},
+           familyi={I\bibinitperiod},
+           given={Mohd},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dfc64f956c84acc171a1f65d4d7beaaa}{%
+           family={Ramli},
+           familyi={R\bibinitperiod},
+           given={Roziana},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dda6d077a4e2c14f8a3870949e03d567}{%
+           family={Salleh},
+           familyi={S\bibinitperiod},
+           given={Rosli},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f2a068f2a5dfb76b92df9f4645c3a0c2}{%
+           family={Band},
+           familyi={B\bibinitperiod},
+           given={Shahab},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b93f2a310bb2c20e877f1ec4a985c4bd}{%
+           family={Choo},
+           familyi={C\bibinitperiod},
+           given={Kim-Kwang\bibnamedelima Raymond},
+           giveni={K\bibinithyphendelim K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{c282c90f87c7115ef8ba3135de19fda8}
+      \strng{authornamehash}{c282c90f87c7115ef8ba3135de19fda8}
+      \strng{authorfullhash}{a453f7fd1edab9e5ee1c6060c75364b4}
+      \strng{authorfullhashraw}{a453f7fd1edab9e5ee1c6060c75364b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{75}
+      \field{journaltitle}{Journal of Network and Computer Applications}
+      \field{month}{09}
+      \field{title}{Copy-Move Forgery Detection: Survey, Challenges and Future Directions}
+      \field{year}{2016}
+      \field{volume}{75}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.jnca.2016.09.008
+      \endverb
+    \endentry
+    \entry{18}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=a06a24a184d39c3aa9a7718cd9a5868d}{%
+           family={Bay},
+           familyi={B\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1fffde1e018446dc52c3da9c6e26ec11}{%
+           family={Tuytelaars},
+           familyi={T\bibinitperiod},
+           given={Tinne},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d3bc7b9be5061411a87f19fcdf39499c}{%
+           family={Van\bibnamedelima Gool},
+           familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Luc},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b96921d02422275a74b2ed60260ec3f0}
+      \strng{fullhash}{b96921d02422275a74b2ed60260ec3f0}
+      \strng{fullhashraw}{b96921d02422275a74b2ed60260ec3f0}
+      \strng{bibnamehash}{b96921d02422275a74b2ed60260ec3f0}
+      \strng{authorbibnamehash}{b96921d02422275a74b2ed60260ec3f0}
+      \strng{authornamehash}{b96921d02422275a74b2ed60260ec3f0}
+      \strng{authorfullhash}{b96921d02422275a74b2ed60260ec3f0}
+      \strng{authorfullhashraw}{b96921d02422275a74b2ed60260ec3f0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{3951}
+      \field{journaltitle}{Computer Vision-ECCV 2006}
+      \field{month}{07}
+      \field{title}{SURF: Speeded up robust features}
+      \field{year}{2006}
+      \field{pages}{404\bibrangedash 417}
+      \range{pages}{14}
+      \field{volume}{3951}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1007/11744023_32
+      \endverb
+    \endentry
+    \entry{19}{article}{useauthor=false}{}
+      \true{moreauthor}
+      \name{author}{4}{}{%
+        {{hash=1b9393b7d442ddb864a2205fbb95b992}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Ewerton},
+           giveni={E\bibinitperiod}}}%
+        {{hash=69272937179b177e2d75e891be491c7c}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Tiago},
+           giveni={T\bibinitperiod}}}%
+        {{hash=965e40c58e3c200a02c1e2cb96f3a11b}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Anselmo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=030eee6c49a220d206a635085a9c3ba8}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Anderson},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{9e6bfdcf2159539e16897a6ac2b601da}
+      \strng{authornamehash}{9e6bfdcf2159539e16897a6ac2b601da}
+      \strng{authorfullhash}{71d9c07e3778623651220ca5f62df248}
+      \strng{authorfullhashraw}{71d9c07e3778623651220ca5f62df248}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{29}
+      \field{journaltitle}{JOURNAL OF VISUAL COMMUNICATION AND IMAGE REPRESENTATION}
+      \field{title}{Going deeper into copy-move forgery detection: Exploring image telltales via multi-scale analysis and voting processes}
+      \field{year}{2015}
+      \field{pages}{16}
+      \range{pages}{1}
+      \field{volume}{29}
+      \range{volume}{1}
+    \endentry
+    \entry{20}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=35663f1f3cc3203c0be2ad2646050e37}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fdbbde430335ebbbb1b98b8f1e5de765}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Xuanjing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2eb32527c6c4c7beb550517fcc12f99f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Haipeng},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6f641144fe29097af4069b52480abc91}
+      \strng{fullhash}{6f641144fe29097af4069b52480abc91}
+      \strng{fullhashraw}{6f641144fe29097af4069b52480abc91}
+      \strng{bibnamehash}{6f641144fe29097af4069b52480abc91}
+      \strng{authorbibnamehash}{6f641144fe29097af4069b52480abc91}
+      \strng{authornamehash}{6f641144fe29097af4069b52480abc91}
+      \strng{authorfullhash}{6f641144fe29097af4069b52480abc91}
+      \strng{authorfullhashraw}{6f641144fe29097af4069b52480abc91}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{75}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{title}{Copy-move forgery detection based on scaled ORB}
+      \field{year}{2016}
+      \field{number}{6}
+      \range{number}{1}
+      \field{pages}{3221\bibrangedash 3233}
+      \range{pages}{13}
+      \field{volume}{75}
+      \range{volume}{1}
+    \endentry
+    \entry{21}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0825b830a22ddec345996698ba6fd655}{%
+           family={Farhan},
+           familyi={F\bibinitperiod},
+           given={Mahmoud\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=55cc9cb3a4a3890ba8233ebe66a9d480}{%
+           family={Shaker},
+           familyi={S\bibinitperiod},
+           given={Khalid},
+           giveni={K\bibinitperiod}}}%
+        {{hash=15f1a1ad36767b24c06c5bd810ba470e}{%
+           family={Al-Janabi},
+           familyi={A\bibinithyphendelim J\bibinitperiod},
+           given={Sufyan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{fullhash}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{fullhashraw}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{bibnamehash}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{authorbibnamehash}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{authornamehash}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{authorfullhash}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{authorfullhashraw}{e5a87c81b032f83e4895c2b776cf5baf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{83}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{title}{Copy--move forgery detection in digital image forensics: A survey}
+      \field{year}{2024}
+      \field{number}{28}
+      \range{number}{1}
+      \field{pages}{70603\bibrangedash 70635}
+      \range{pages}{33}
+      \field{volume}{83}
+      \range{volume}{1}
+    \endentry
+    \entry{22}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=b0f1ddf7f7ae7585852791583c8ce7bc}{%
+           family={Bayar},
+           familyi={B\bibinitperiod},
+           given={Belhassen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=12ea694f8f140240d6e25b4f2323bd29}{%
+           family={Stamm},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \strng{fullhash}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \strng{fullhashraw}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \strng{bibnamehash}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \strng{authorbibnamehash}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \strng{authornamehash}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \strng{authorfullhash}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \strng{authorfullhashraw}{e186dceaee5e4c4ef7e532ddc74f70f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Deep Learning Approach to Universal Image Manipulation Detection Using a New Convolutional Layer}
+      \field{year}{2016}
+      \field{pages}{5\bibrangedash 10}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/2909827.2930786
+      \endverb
+    \endentry
+    \entry{24}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=0c65190dcbd461dee172354f7938ae43}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cae9f806bc99a5f19fadea538fc2db04}{%
+           family={Isola},
+           familyi={I\bibinitperiod},
+           given={Phillip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5a663b27298722834a8cf09bb93d8c94}{%
+           family={Efros},
+           familyi={E\bibinitperiod},
+           given={Alexei\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \strng{fullhash}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \strng{fullhashraw}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \strng{bibnamehash}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \strng{authorbibnamehash}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \strng{authornamehash}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \strng{authorfullhash}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \strng{authorfullhashraw}{dd48d99eeae43e62ba64f38fa60a07d5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Colorful Image Colorization}
+      \field{year}{2016}
+      \field{pages}{649\bibrangedash 666}
+      \range{pages}{18}
+    \endentry
+    \entry{23}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=168e84ce3582cbc6bac5e2ebc3ef8442}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b452a32296958371572717940f900884}{%
+           family={Brox},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{fullhashraw}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authornamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorfullhashraw}{f23ccc5160c62c7866172335b2c76e11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
+      \field{year}{2015}
+      \field{pages}{234\bibrangedash 241}
+      \range{pages}{8}
+    \endentry
+    \entry{26}{inproceedings}{useauthor=false}{}
+      \name{author}{4}{}{%
+        {{hash=a5a7e1da5f8e899211f04d84a59d0dd6}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b2ea8715e380239945f6f822d112db19}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Xintong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=78075dc8b429fdb5a9a30b72710b5844}{%
+           family={Morariu},
+           familyi={M\bibinitperiod},
+           given={Vlad\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=dcd7f4d5fae52e84cdfcfb7809b2d5a2}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Larry\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{9fbff7abf92e9cfb0e0e6d32f2305b9a}
+      \strng{authornamehash}{9fbff7abf92e9cfb0e0e6d32f2305b9a}
+      \strng{authorfullhash}{293fc54a1588dcb1f48c16d1f2cead91}
+      \strng{authorfullhashraw}{293fc54a1588dcb1f48c16d1f2cead91}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning Rich Features for Image Manipulation Detection}
+      \field{year}{2018}
+      \field{pages}{1053\bibrangedash 1061}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/CVPR.2018.00116
+      \endverb
+    \endentry
+    \entry{25}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0b7ff038c1a27c940c01a4fd0cc68365}{%
+           family={Fridrich},
+           familyi={F\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=86be5fca9192a7506384d7d571c3e80d}{%
+           family={Kodovsky},
+           familyi={K\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{06d90a699fdb74e0af2e26f54361d46d}
+      \strng{fullhash}{06d90a699fdb74e0af2e26f54361d46d}
+      \strng{fullhashraw}{06d90a699fdb74e0af2e26f54361d46d}
+      \strng{bibnamehash}{06d90a699fdb74e0af2e26f54361d46d}
+      \strng{authorbibnamehash}{06d90a699fdb74e0af2e26f54361d46d}
+      \strng{authornamehash}{06d90a699fdb74e0af2e26f54361d46d}
+      \strng{authorfullhash}{06d90a699fdb74e0af2e26f54361d46d}
+      \strng{authorfullhashraw}{06d90a699fdb74e0af2e26f54361d46d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{7}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{title}{Rich Models for Steganalysis of Digital Images}
+      \field{year}{2012}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{868\bibrangedash 882}
+      \range{pages}{15}
+      \field{volume}{7}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/TIFS.2012.2190402
+      \endverb
+    \endentry
+    \entry{preprocessing1}{article}{useauthor=false}{}
+      \name{author}{4}{}{%
+        {{hash=971fe2c2ff984c249ee43176b34e7b2a}{%
+           family={Gura},
+           familyi={G\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8448ca6fe14624550c712dafc6313b7b}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ce6ae74fa07325e2e5babe8b0ee649f7}{%
+           family={Mehiar},
+           familyi={M\bibinitperiod},
+           given={Duaa},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1ed71350d39c0150e7e67346ce3f98ec}{%
+           family={Said},
+           familyi={S\bibinitperiod},
+           given={Nidal},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{5df51b68ab07821e1260b3c714ed9f35}
+      \strng{authornamehash}{5df51b68ab07821e1260b3c714ed9f35}
+      \strng{authorfullhash}{047f5acd2d048c76ec88b4158457f8ed}
+      \strng{authorfullhashraw}{047f5acd2d048c76ec88b4158457f8ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{79}
+      \field{journaltitle}{Computers, Materials \& Continua}
+      \field{title}{Customized Convolutional Neural Network for Accurate Detection of Deep Fake Images in Video Collections}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \field{volume}{79}
+      \range{volume}{1}
+    \endentry
+    \entry{casia1}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=9a19678b90959c943abfb99bc57cac4e}{%
+           family={Jing},
+           familyi={J\bibinitperiod},
+           given={Dong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=797281af2115c6d5dddffea7d8ec7731}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Wang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d70e8c0c005679d9b7e0890da43e9d04}
+      \strng{fullhash}{d70e8c0c005679d9b7e0890da43e9d04}
+      \strng{fullhashraw}{d70e8c0c005679d9b7e0890da43e9d04}
+      \strng{bibnamehash}{d70e8c0c005679d9b7e0890da43e9d04}
+      \strng{authorbibnamehash}{d70e8c0c005679d9b7e0890da43e9d04}
+      \strng{authornamehash}{d70e8c0c005679d9b7e0890da43e9d04}
+      \strng{authorfullhash}{d70e8c0c005679d9b7e0890da43e9d04}
+      \strng{authorfullhashraw}{d70e8c0c005679d9b7e0890da43e9d04}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CASIA Image Tampering Detection Evaluation Database}
+      \field{year}{2013}
     \endentry
   \enddatalist
 \endrefsection

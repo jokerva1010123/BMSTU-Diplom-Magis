@@ -1131,6 +1131,34 @@
       \field{title}{CASIA Image Tampering Detection Evaluation Database}
       \field{year}{2013}
     \endentry
+    \entry{python}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа URL: \url{https://www.python.org/} (дата обращения: 23.11.2025)}
+      \field{title}{Welcome to Python.org [Электронный ресурс]}
+    \endentry
+    \entry{vscode}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа URL: \url{https://code.visualstudio.com/} (дата обращения: 23.11.2025)}
+      \field{title}{Visual Studio Code}
+    \endentry
+    \entry{torch}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа URL: https://pytorch.org/ (дата обращения: 24.10.2025).}
+      \field{title}{Библиотека torch.}
+    \endentry
+    \entry{streamlit}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа URL: https://streamlit.io/ (дата обращения: 24.11.2025)}
+      \field{title}{Библиотека streamlit.}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

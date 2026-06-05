@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.12)  26 MAY 2026 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.12)  5 JUN 2026 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,7 +1677,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (main.aux
 (01-abstract.aux) (03-intro.aux) (10-analysis.aux) (20-design.aux)
-(40-research.aux) (50-conclusion.aux) (70-application.aux))
+(30-technology.aux) (40-research.aux) (50-conclusion.aux) (70-application.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1713,7 +1713,6 @@ Package babel Info: Redefining russian shorthand "-
 Package babel Info: Redefining russian shorthand ",
 (babel)             in language  on input line 6.
 LaTeX Info: Redefining \th on input line 6.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1886,7 +1885,13 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
  [7]
 \openout2 = `03-intro.aux'.
 
- (03-intro.tex) [8
+ (03-intro.tex
+Underfull \hbox (badness 1635) in paragraph at lines 12--13
+[]\TU/TimesNewRoman(1)/m/n/14.4 разработать метод обнаружения фальсифицированно
+го фрагмента на
+ []
+
+) [8
 
 
 ]
@@ -1903,27 +1908,22 @@ Package newfloat Info: Setting Plan B file extension to `lof'... on input line
 
 ] [10] [11] [12] [13] [14] [15] [16] [17]
 Underfull \hbox (badness 10000) in paragraph at lines 136--136
-[]|\TU/TimesNewRoman(1)/m/it/14.4 Устойчивость
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\TU/TimesNewRoman(1)/m/it/14.4 Обобщающая
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 137--137
-[]|\TU/TimesNewRoman(1)/m/n/14.4 Метод на основе
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\TU/TimesNewRoman(1)/m/n/14.4 Методы на ос-
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 138--138
-[]|\TU/TimesNewRoman(1)/m/n/14.4 Метод на основе
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+\TU/TimesNewRoman(1)/m/n/14.4 нове анализа
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 138--138
-\TU/TimesNewRoman(1)/m/n/14.4 поиска ключевых
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+\TU/TimesNewRoman(1)/m/n/14.4 целостности
  []
 
 
@@ -1937,7 +1937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--139
  []
 
 
-Overfull \hbox (8.3661pt too wide) in paragraph at lines 139--139
+Overfull \hbox (5.52066pt too wide) in paragraph at lines 139--139
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
@@ -1952,12 +1952,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--140
  []
 
 
-Overfull \hbox (8.3661pt too wide) in paragraph at lines 140--140
+Overfull \hbox (5.52066pt too wide) in paragraph at lines 140--140
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
 
-Overfull \hbox (8.3661pt too wide) in paragraph at lines 140--140
+Overfull \hbox (5.52066pt too wide) in paragraph at lines 140--140
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
@@ -1977,25 +1977,20 @@ File: ./img/idef0.png Graphic file (type bmp)
 ]
 File: ./img/idef0-1.png Graphic file (type bmp)
 <./img/idef0-1.png>
+ [22]
 File: ./img/preprocessing.png Graphic file (type bmp)
 <./img/preprocessing.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[22]
+ [23]
 File: ./img/algorithm.png Graphic file (type bmp)
 <./img/algorithm.png>
+ [24]
+File: ./img/cnn.png Graphic file (type bmp)
+<./img/cnn.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23] [24]
-File: ./img/cnn.png Graphic file (type bmp)
-<./img/cnn.png>
- [25]
-File: ./img/down.png Graphic file (type bmp)
-<./img/down.png>
+[25]
 File: ./img/fal.png Graphic file (type bmp)
 <./img/fal.png>
 
@@ -2009,7 +2004,7 @@ File: ./img/seam.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] [28]
+[27] [28] [29]
 File: ./img/model1.png Graphic file (type bmp)
 <./img/model1.png>
 File: ./img/module-user.png Graphic file (type bmp)
@@ -2018,26 +2013,53 @@ File: ./img/module-user.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29]) [30]
+[30]) [31]
+\openout2 = `30-technology.aux'.
+
+ (30-technology.tex
+Глава 3.
+[32
+
+
+
+
+] [33]
+File: ./img/model.png Graphic file (type bmp)
+<./img/model.png>
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 62.
+ [34]
+File: ./img/3.1.png Graphic file (type bmp)
+<./img/3.1.png>
+File: ./img/3.2.png Graphic file (type bmp)
+<./img/3.2.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35]
+File: ./img/3.3.png Graphic file (type bmp)
+<./img/3.3.png>
+) [36]
 \openout2 = `40-research.aux'.
 
  (40-research.tex
-Глава 3.
+Глава 4.
 
 Underfull \hbox (badness 2717) in paragraph at lines 5--6
 []\TU/TimesNewRoman(1)/m/n/14.4 Поскольку задача обнаружения фальсифицированног
 о фрагмента на
  []
 
-[31
+[37
 
 
 
 
-] [32]
+] [38]
 File: ./img/seam_test.png Graphic file (type bmp)
 <./img/seam_test.png>
- [33]
+ [39]
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
 []|\TU/TimesNewRoman(1)/m/n/14.4 Без использования слоев
  []
@@ -2047,54 +2069,54 @@ File: ./img/fal_test.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34] [35] [36]
+[40] [41] [42]
 File: ./img/jpeg.png Graphic file (type bmp)
 <./img/jpeg.png>
- [37]) [38]
+ [43]) [44]
 \openout2 = `50-conclusion.aux'.
 
- (50-conclusion.tex) [39
+ (50-conclusion.tex) [45
 
 
 
 
 ]
-Underfull \hbox (badness 3189) in paragraph at lines 25--25
+Underfull \hbox (badness 3189) in paragraph at lines 26--26
 []\TU/TimesNewRoman(1)/m/it/14.4 Birajdar G.\TU/TimesNewRoman(1)/m/n/14.4 , \TU
 /TimesNewRoman(1)/m/it/14.4 Mankar V. \TU/TimesNewRoman(1)/m/n/14.4 Digital ima
 ge forgery detection using passive
  []
 
-[40
+[46
 
 
 
 ]
-Underfull \hbox (badness 3449) in paragraph at lines 25--25
+Underfull \hbox (badness 3449) in paragraph at lines 26--26
 []\TU/TimesNewRoman(1)/m/it/14.4 Lowe D. \TU/TimesNewRoman(1)/m/n/14.4 Distinct
 ive Image Features from Scale-Invariant Keypoints []
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 25--25
+Underfull \hbox (badness 2626) in paragraph at lines 26--26
 []\TU/TimesNewRoman(1)/m/n/14.4 An Evaluation of Popular Copy-Move Forgery Dete
 ction Approaches /
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 25--25
+Underfull \hbox (badness 1092) in paragraph at lines 26--26
 \TU/TimesNewRoman(1)/m/n/14.4 V. Christlein [и др.] [] IEEE Transactions on Inf
 ormation Forensics and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 []\TU/TimesNewRoman(1)/m/it/14.4 Lowe D. \TU/TimesNewRoman(1)/m/n/14.4 Object R
 ecognition from Local Scale-Invariant Features []
  []
 
-[41]
-Underfull \hbox (badness 1014) in paragraph at lines 25--25
+[47]
+Underfull \hbox (badness 1014) in paragraph at lines 26--26
 []\TU/TimesNewRoman(1)/m/it/14.4 Ronneberger O.\TU/TimesNewRoman(1)/m/n/14.4 , 
 \TU/TimesNewRoman(1)/m/it/14.4 Fischer P.\TU/TimesNewRoman(1)/m/n/14.4 , \TU/Ti
 mesNewRoman(1)/m/it/14.4 Brox T. \TU/TimesNewRoman(1)/m/n/14.4 U-Net: Convoluti
@@ -2102,63 +2124,43 @@ onal Networks for
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 25--25
+Underfull \hbox (badness 1622) in paragraph at lines 26--26
 \TU/TimesNewRoman(1)/m/n/14.4 Biomedical Image Segmentation []. — Springer Inte
 rnational Publishing,
  []
 
-[42]
+[48] [49]
 \openout2 = `70-application.aux'.
 
- (70-application.tex) [43
+ (70-application.tex) [50
 
 
 ]
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 319.
-See the caption package documentation for explanation.
-
-
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main.aux (01-abstract.aux) (03-intro.aux) (10-analysis.aux) (20-design.aux)
-(40-research.aux) (50-conclusion.aux) (70-application.aux))
+(30-technology.aux) (40-research.aux) (50-conclusion.aux) (70-application.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 
-
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C28F9A2CB9E4EFAD00854AB1B0007471;10896
-(rerunfilecheck)             After:  A2AA32AD66C18445D7A43A5D01F134F3;10890.
-
-Package biblatex Warning: Please rerun LaTeX.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C9F265306D7EFE83010AB308A38CA755;13404.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56297 strings out of 402806
- 1287706 string characters out of 5449461
- 2718699 words of memory out of 5000000
- 84377 multiletter control sequences out of 15000+600000
- 633100 words of font info for 76 fonts, out of 8000000 for 9000
+ 56516 strings out of 402806
+ 1291215 string characters out of 5449461
+ 2727784 words of memory out of 5000000
+ 84584 multiletter control sequences out of 15000+600000
+ 633116 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,11n,111p,1311b,6028s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,11n,111p,1316b,6028s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (39 pages).
+Output written on main.pdf (46 pages).

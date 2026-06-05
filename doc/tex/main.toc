@@ -18,17 +18,25 @@
 \contentsline {section}{\numberline {2.1.}Требования и ограничения к разрабатываемому методу}{21}{section.2.1}%
 \contentsline {section}{\numberline {2.2.}Описание разрабатываемого метода}{22}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1.}Декомпозиция разрабатываемого метода}{22}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2.}Алгоритмы предобработки и извлечения признаков}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2.}Алгоритмы предобработки и извлечения признаков}{23}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3.}Структура разрабатываемой сверточной нейронной сети}{25}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3.}Структура разрабатываемого программного обеспечения}{29}{section.2.3}%
-\contentsline {section}{\numberline {2.4.}Набор данных для обучения модели}{30}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Исследовательский раздел}{31}{chapter.3}%
-\contentsline {section}{\numberline {3.1.}Метрики оценки качества модели}{31}{section.3.1}%
-\contentsline {section}{\numberline {3.2.}Влияние слоя внимания на качество модели}{32}{section.3.2}%
-\contentsline {section}{\numberline {3.3.}Влияние слоя адаптации признаков на качество модели}{34}{section.3.3}%
-\contentsline {section}{\numberline {3.4.}Влияние объема передаваемых данных на качество работы метода}{35}{section.3.4}%
-\contentsline {section}{\numberline {3.5.}Влияние качества изображения на качество модели}{37}{section.3.5}%
-\contentsline {part}{ЗАКЛЮЧЕНИЕ}{39}{figure.caption.17}%
-\contentsline {part}{\textbf {СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}{42}{chapter*.18}%
-\contentsline {part}{\textbf {ПРИЛОЖЕНИЕ А}}{43}{chapter*.19}%
+\contentsline {section}{\numberline {2.4.}Набор данных для обучения модели}{31}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Технологический раздел}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1.}Выбор средств реализации программного обеспечения}{32}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1.}Выбор языка программирования}{32}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2.}Выбор среды программирования}{32}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2.}Формат входных и выходных данных}{33}{section.3.2}%
+\contentsline {section}{\numberline {3.3.}Структура разрабатываемого программного обеспечения}{33}{section.3.3}%
+\contentsline {section}{\numberline {3.4.}Руководство пользователя}{34}{section.3.4}%
+\contentsline {section}{\numberline {3.5.}Интерфейс пользователя }{35}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Исследовательский раздел}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1.}Метрики оценки качества модели}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2.}Влияние слоя внимания на качество модели}{38}{section.4.2}%
+\contentsline {section}{\numberline {4.3.}Влияние слоя адаптации признаков на качество модели}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4.}Влияние объема передаваемых данных на качество работы метода}{41}{section.4.4}%
+\contentsline {section}{\numberline {4.5.}Влияние качества изображения на качество модели}{43}{section.4.5}%
+\contentsline {part}{ЗАКЛЮЧЕНИЕ}{45}{figure.caption.20}%
+\contentsline {part}{\textbf {СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}{46}{figure.caption.20}%
+\contentsline {part}{\textbf {ПРИЛОЖЕНИЕ А}}{50}{chapter*.22}%
 \contentsfinish 

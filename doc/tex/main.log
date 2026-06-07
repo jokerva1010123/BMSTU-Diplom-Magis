@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.12)  5 JUN 2026 00:23
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.12)  5 JUN 2026 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,7 +1677,8 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (main.aux
 (01-abstract.aux) (03-intro.aux) (10-analysis.aux) (20-design.aux)
-(30-technology.aux) (40-research.aux) (50-conclusion.aux) (70-application.aux))
+(30-technology.aux) (40-research.aux) (50-conclusion.aux) (70-application.aux)
+(71-application.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1713,6 +1714,7 @@ Package babel Info: Redefining russian shorthand "-
 Package babel Info: Redefining russian shorthand ",
 (babel)             in language  on input line 6.
 LaTeX Info: Redefining \th on input line 6.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1907,57 +1909,57 @@ Package newfloat Info: Setting Plan B file extension to `lof'... on input line
 
 
 ] [10] [11] [12] [13] [14] [15] [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\TU/TimesNewRoman(1)/m/it/14.4 Обобщающая
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\TU/TimesNewRoman(1)/m/n/14.4 Методы на ос-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \TU/TimesNewRoman(1)/m/n/14.4 нове анализа
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 \TU/TimesNewRoman(1)/m/n/14.4 целостности
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\TU/TimesNewRoman(1)/m/n/14.4 Однопоточная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 \TU/TimesNewRoman(1)/m/n/14.4 сверточная ней-
  []
 
 
-Overfull \hbox (5.52066pt too wide) in paragraph at lines 139--139
+Overfull \hbox (5.52066pt too wide) in paragraph at lines 141--141
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|\TU/TimesNewRoman(1)/m/n/14.4 Многопоточная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 \TU/TimesNewRoman(1)/m/n/14.4 сверточная ней-
  []
 
 
-Overfull \hbox (5.52066pt too wide) in paragraph at lines 140--140
+Overfull \hbox (5.52066pt too wide) in paragraph at lines 142--142
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
 
-Overfull \hbox (5.52066pt too wide) in paragraph at lines 140--140
+Overfull \hbox (5.52066pt too wide) in paragraph at lines 142--142
 []|\TU/TimesNewRoman(1)/m/n/14.4 Средняя/Высокая| 
  []
 
@@ -2013,34 +2015,34 @@ File: ./img/module-user.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30]) [31]
+[30]) [31] [32]
 \openout2 = `30-technology.aux'.
 
  (30-technology.tex
 Глава 3.
-[32
+[33
 
 
 
 
-] [33]
+] [34]
 File: ./img/model.png Graphic file (type bmp)
 <./img/model.png>
+ [35]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 62.
- [34]
+nput line 64.
 File: ./img/3.1.png Graphic file (type bmp)
 <./img/3.1.png>
+ [36]
 File: ./img/3.2.png Graphic file (type bmp)
 <./img/3.2.png>
+File: ./img/3.3.png Graphic file (type bmp)
+<./img/3.3.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35]
-File: ./img/3.3.png Graphic file (type bmp)
-<./img/3.3.png>
-) [36]
+[37]) [38]
 \openout2 = `40-research.aux'.
 
  (40-research.tex
@@ -2051,31 +2053,37 @@ Underfull \hbox (badness 2717) in paragraph at lines 5--6
 о фрагмента на
  []
 
-[37
+[39
 
 
 
 
-] [38]
+] [40]
 File: ./img/seam_test.png Graphic file (type bmp)
 <./img/seam_test.png>
- [39]
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
-[]|\TU/TimesNewRoman(1)/m/n/14.4 Без использования слоев
- []
 
-File: ./img/fal_test.png Graphic file (type bmp)
-<./img/fal_test.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40] [41] [42]
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|\TU/TimesNewRoman(1)/m/n/14.4 Без использования слоев
+ []
+
+[42]
+File: ./img/fal_test.png Graphic file (type bmp)
+<./img/fal_test.png>
+ [43] [44]
 File: ./img/jpeg.png Graphic file (type bmp)
 <./img/jpeg.png>
- [43]) [44]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45]) [46] [47]
 \openout2 = `50-conclusion.aux'.
 
- (50-conclusion.tex) [45
+ (50-conclusion.tex) [48
 
 
 
@@ -2087,7 +2095,7 @@ Underfull \hbox (badness 3189) in paragraph at lines 26--26
 ge forgery detection using passive
  []
 
-[46
+[49
 
 
 
@@ -2115,7 +2123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--26
 ecognition from Local Scale-Invariant Features []
  []
 
-[47]
+[50]
 Underfull \hbox (badness 1014) in paragraph at lines 26--26
 []\TU/TimesNewRoman(1)/m/it/14.4 Ronneberger O.\TU/TimesNewRoman(1)/m/n/14.4 , 
 \TU/TimesNewRoman(1)/m/it/14.4 Fischer P.\TU/TimesNewRoman(1)/m/n/14.4 , \TU/Ti
@@ -2129,38 +2137,49 @@ Underfull \hbox (badness 1622) in paragraph at lines 26--26
 rnational Publishing,
  []
 
-[48] [49]
+[51] [52]
 \openout2 = `70-application.aux'.
 
- (70-application.tex) [50
+ (70-application.tex [53
+
+
+] [54] [55] [56] [57] [58] [59]) [60]
+\openout2 = `71-application.aux'.
+
+
+(71-application.tex) [61
+
+
 
 
 ]
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main.aux (01-abstract.aux) (03-intro.aux) (10-analysis.aux) (20-design.aux)
-(30-technology.aux) (40-research.aux) (50-conclusion.aux) (70-application.aux))
+(30-technology.aux) (40-research.aux) (50-conclusion.aux) (70-application.aux)
+(71-application.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 
+
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C9F265306D7EFE83010AB308A38CA755;13404.
+(rerunfilecheck)             Checksum: 9824EA0844C685463415690D56F1E169;13810.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56516 strings out of 402806
- 1291215 string characters out of 5449461
- 2727784 words of memory out of 5000000
- 84584 multiletter control sequences out of 15000+600000
- 633116 words of font info for 78 fonts, out of 8000000 for 9000
+ 56720 strings out of 402806
+ 1294175 string characters out of 5449461
+ 3207129 words of memory out of 5000000
+ 84780 multiletter control sequences out of 15000+600000
+ 633124 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,11n,111p,1316b,6028s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (46 pages).
+Output written on main.pdf (57 pages).

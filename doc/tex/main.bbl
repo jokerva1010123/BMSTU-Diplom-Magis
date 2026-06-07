@@ -1159,6 +1159,20 @@
       \field{howpublished}{Режим доступа URL: https://streamlit.io/ (дата обращения: 24.11.2025)}
       \field{title}{Библиотека streamlit.}
     \endentry
+    \entry{window}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа URL: \url{https://tehnichka.pro/windows-10-home-for-one-language/} (дата обращения: 23.04.2026)}
+      \field{title}{Windows 10 «Домашняя для одного языка»}
+    \endentry
+    \entry{cpu}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Режим доступа URL: \url{https://www.notebookcheck-ru.com/Intel-Core-i5-1135G7-Testirovanie-processora.507554.0.html} (дата обращения: 23.04.2026)}
+      \field{title}{Intel Core i5-1135G7}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

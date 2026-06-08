@@ -1,4 +1,4 @@
-\chapter*{\centerline{ПРИЛОЖЕНИЕ А}}
+\part*{\centerline{ПРИЛОЖЕНИЕ А}}
 \addcontentsline{toc}{part}{\textbf{ПРИЛОЖЕНИЕ А}}
 
 \begin{lstlisting}[caption=Реализация структуры сверточной нейронной сети,label=lst:application11111]
@@ -10,7 +10,7 @@ class MyCNN(nn.Module):
         bw = data_size[1]
 
         bn = 32 
-        # -------------- conv -------------- #
+        
         self.conv1 = nn.Sequential(
             nn.Conv2d(3, bn, kernel_size=3, padding=1),
             nn.BatchNorm2d(bn),
@@ -116,7 +116,7 @@ class MyCNN(nn.Module):
             nn.ReLU(True)
         )
 
-        # -------------- middle -------------- #
+        
         self.conv5 = nn.Sequential(
             nn.Conv2d(9 * bn, 8 * bn, kernel_size=3, padding=1),
             nn.BatchNorm2d(8 * bn),
@@ -133,7 +133,7 @@ class MyCNN(nn.Module):
             nn.ReLU(True)
         )
 
-        # -------------- deconv -------------- #
+        
         self.deconv4 = nn.Sequential(
             nn.Upsample(size=(bw, bh), mode='bilinear'),
             nn.Conv2d(9 * bn, 8 * bn, kernel_size=1),
@@ -232,7 +232,7 @@ class MyCNN(nn.Module):
             nn.BatchNorm2d(bn),
             nn.ReLU(True)
         )
-        # -------------- end -------------- #
+        
         self.conv_end = nn.Conv2d(bn, 2, kernel_size=3, padding=1, bias=False)
         self.conv_end_label_edge = nn.Conv2d(bn, 2, kernel_size=3, padding=1, bias=False)
         self.conv_end_img_edge = nn.Conv2d(bn, 1, kernel_size=3, padding=1, bias=False)

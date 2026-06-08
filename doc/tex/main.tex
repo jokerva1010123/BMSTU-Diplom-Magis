@@ -22,8 +22,14 @@
 	\include{50-conclusion}
 	%\include{60-bibliography}
 
+	% \addcontentsline{toc}{part}{\textbf{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
+    % \printbibliography[title=\centerline{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}]
+
+	\cleardoublepage
+	\phantomsection
+	\part*{\centerline{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
 	\addcontentsline{toc}{part}{\textbf{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
-    \printbibliography[title=\centerline{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}]
+	\printbibliography[heading=none]
 	\include{70-application}
 	 \include{71-application}
 	% \include{72-application}

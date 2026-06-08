@@ -16,9 +16,9 @@
 \contentsline {section}{\numberline {1.4.}Формализованная постановка задачи}{20}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Конструкторский раздел}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1.}Требования и ограничения к разрабатываемому методу}{21}{section.2.1}%
-\contentsline {section}{\numberline {2.2.}Описание разрабатываемого метода}{22}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1.}Декомпозиция разрабатываемого метода}{22}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2.}Алгоритмы предобработки и извлечения признаков}{23}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.2.}Описание разрабатываемого метода}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1.}Декомпозиция разрабатываемого метода}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2.}Алгоритмы предобработки и извлечения признаков}{22}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3.}Структура разрабатываемой сверточной нейронной сети}{25}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3.}Структура разрабатываемого программного обеспечения}{29}{section.2.3}%
 \contentsline {section}{\numberline {2.4.}Набор данных для обучения модели}{31}{section.2.4}%
@@ -38,7 +38,7 @@
 \contentsline {section}{\numberline {4.5.}Влияние объема передаваемых данных на качество работы метода}{44}{section.4.5}%
 \contentsline {section}{\numberline {4.6.}Влияние качества изображения на качество модели}{45}{section.4.6}%
 \contentsline {part}{ЗАКЛЮЧЕНИЕ}{48}{figure.caption.20}%
-\contentsline {part}{\textbf {СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}{49}{figure.caption.20}%
-\contentsline {part}{\textbf {ПРИЛОЖЕНИЕ А}}{53}{chapter*.22}%
-\contentsline {part}{\textbf {ПРИЛОЖЕНИЕ Б}}{61}{chapter*.23}%
+\contentsline {part}{\textbf {СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}{49}{section*.21}%
+\contentsline {part}{\textbf {ПРИЛОЖЕНИЕ А}}{53}{section*.21}%
+\contentsline {part}{\textbf {ПРИЛОЖЕНИЕ Б}}{61}{lstnumber.4.1.331}%
 \contentsfinish 

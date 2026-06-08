@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[219] biber-MSWIN64:342> INFO - === 
-[339] Biber.pm:421> INFO - Reading 'main.bcf'
-[502] Biber.pm:1002> INFO - Found 34 citekeys in bib section 0
-[518] Biber.pm:4487> INFO - Processing section 0
-[541] Biber.pm:4678> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[609] bibtex.pm:1713> INFO - LaTeX decoding ...
-[679] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
-[882] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[882] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[882] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[882] Biber.pm:4313> INFO - No sort tailoring available for locale 'ru-RU'
-[935] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[953] bbl.pm:779> INFO - Output to main.bbl
+[116] biber-MSWIN64:342> INFO - === 
+[159] Biber.pm:421> INFO - Reading 'main.bcf'
+[710] Biber.pm:1002> INFO - Found 34 citekeys in bib section 0
+[726] Biber.pm:4487> INFO - Processing section 0
+[737] Biber.pm:4678> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[802] bibtex.pm:1713> INFO - LaTeX decoding ...
+[861] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
+[1037] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1037] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1037] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[1037] Biber.pm:4313> INFO - No sort tailoring available for locale 'ru-RU'
+[1067] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1084] bbl.pm:779> INFO - Output to main.bbl

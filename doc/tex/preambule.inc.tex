@@ -192,7 +192,7 @@
 
 %\usepackage[cache=false, newfloat]{minted}
 %\newenvironment{code}{\captionsetup{type=listing}}{}
-\renewcommand{\lstlistingname}{Листинг}
+\renewcommand{\lstlistingname}{}
 
 \newcommand{\codefont}{\fontfamily{pcr}}
 \newcommand{\keywordsfont}{\fontfamily{pcr}\bfseries}
@@ -309,13 +309,16 @@
 	inputencoding=utf8x,
 	keepspaces=true,
 	captionpos=t,
+	% caption=\hspace*{0.19in}\ignorespaces,
 	breakatwhitespace=false,
 }
 \DeclareCaptionFont{white}{\color{white}}
 \captionsetup[lstlisting]{
 	singlelinecheck=false,
-	justification=centering,
+	justification=raggedright,
 	labelsep=endash,
+	labelformat=empty,
+	margin=0.19in,
 }
 
 \usepackage{color}

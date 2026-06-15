@@ -1,7 +1,7 @@
 \part*{\centerline{ПРИЛОЖЕНИЕ А}}
 \addcontentsline{toc}{part}{\textbf{ПРИЛОЖЕНИЕ А}}
 
-\begin{lstlisting}[caption=Реализация структуры сверточной нейронной сети,label=lst:application11111]
+\begin{lstlisting}[caption=Листинг A.1 -- Реализация структуры сверточной нейронной сети,label=lst:application11111]
 class MyCNN(nn.Module):
     def __init__(self, data_size):
         super(MyCNN, self).__init__()
@@ -43,6 +43,9 @@ class MyCNN(nn.Module):
             nn.ReLU(True)
         )
         self.conv2b = nn.Sequential(
+\end{lstlisting}
+
+\begin{lstlisting}[caption= Продолжение листинга A.1]
             nn.Conv2d(2 * bn, 2 * bn, kernel_size=4, padding=1, stride=2),
             nn.BatchNorm2d(2 * bn),
             nn.ReLU(True)
@@ -83,6 +86,9 @@ class MyCNN(nn.Module):
             nn.Conv2d(bn, bn, kernel_size=4, padding=1, stride=2),
             nn.BatchNorm2d(bn),
             nn.ReLU(True)
+\end{lstlisting}
+
+\begin{lstlisting}[caption= Продолжение листинга A.1]
         )
         self.conv33ada = nn.Sequential(
             nn.Conv2d(bn, bn, kernel_size=1, padding=0, stride=1),
@@ -116,7 +122,6 @@ class MyCNN(nn.Module):
             nn.ReLU(True)
         )
 
-        
         self.conv5 = nn.Sequential(
             nn.Conv2d(9 * bn, 8 * bn, kernel_size=3, padding=1),
             nn.BatchNorm2d(8 * bn),
@@ -125,6 +130,9 @@ class MyCNN(nn.Module):
         self.conv55 = nn.Sequential(
             nn.Conv2d(bn, bn, kernel_size=3, padding=1),
             nn.BatchNorm2d(bn),
+\end{lstlisting}
+
+\begin{lstlisting}[caption= Продолжение листинга A.1]
             nn.ReLU(True)
         )
         self.conv55ada = nn.Sequential(
@@ -133,7 +141,6 @@ class MyCNN(nn.Module):
             nn.ReLU(True)
         )
 
-        
         self.deconv4 = nn.Sequential(
             nn.Upsample(size=(bw, bh), mode='bilinear'),
             nn.Conv2d(9 * bn, 8 * bn, kernel_size=1),
@@ -163,16 +170,20 @@ class MyCNN(nn.Module):
         self.deconv3 = nn.Sequential(
             nn.Upsample(size=(2 * bw, 2 * bh), mode='bilinear'),
             nn.Conv2d(8 * bn, 4 * bn, kernel_size=1),
-        )
-        self.att3 = SELayer(channel=6 * bn, reduction=16)
-        self.deconv3b = nn.Sequential(
-            nn.Conv2d(6 * bn, 4 * bn, kernel_size=3, padding=1),
-            nn.BatchNorm2d(4 * bn),
-            nn.ReLU(True)
-        )
-        self.deconv33 = nn.Sequential(
-            nn.Upsample(size=(2 * bw, 2 * bh), mode='bilinear'),
-            nn.Conv2d(bn, bn, kernel_size=1),
+            )
+            self.att3 = SELayer(channel=6 * bn, reduction=16)
+            self.deconv3b = nn.Sequential(
+                nn.Conv2d(6 * bn, 4 * bn, kernel_size
+\end{lstlisting}
+
+\begin{lstlisting}[caption= Продолжение листинга A.1]
+    =3, padding=1),
+                nn.BatchNorm2d(4 * bn),
+                nn.ReLU(True)
+                )
+                self.deconv33 = nn.Sequential(
+                    nn.Upsample(size=(2 * bw, 2 * bh), mode='bilinear'),
+                    nn.Conv2d(bn, bn, kernel_size=1),
         )
         self.deconv33b = nn.Sequential(
             nn.Conv2d(bn, bn, kernel_size=3, padding=1),
@@ -207,6 +218,9 @@ class MyCNN(nn.Module):
             nn.Conv2d(bn, bn, kernel_size=1, padding=0, stride=1),
             nn.BatchNorm2d(bn),
             nn.ReLU(True)
+\end{lstlisting}
+
+\begin{lstlisting}[caption= Продолжение листинга A.1]
         )
         self.deconv1 = nn.Sequential(
             nn.Upsample(size=(8 * bw, 8 * bh), mode='bilinear'),
@@ -248,6 +262,9 @@ class MyCNN(nn.Module):
         L1b2 = torch.cat([L1b, L11ada], 1)
 
         L2 = self.conv2(L1b2)
+\end{lstlisting}
+
+\begin{lstlisting}[caption= Продолжение листинга A.1]
         L2b = self.conv2b(L2)
         L2c = self.conv2c(data)
         L22 = self.conv22(L11b)
@@ -297,6 +314,9 @@ class MyCNN(nn.Module):
         DL33b = self.deconv33b(DL33_add)
         DL33ba = self.deconv33ada(DL33b)
         DL33bada = DL33ba + DL33b
+\end{lstlisting}
+
+\begin{lstlisting}[caption= Продолжение листинга A.1]
         DL3_cat = torch.cat([DL3_add, L3c, DL33bada], 1)
         DL3_att = self.att3(DL3_cat)
         DL3b = self.deconv3b(DL3_att)

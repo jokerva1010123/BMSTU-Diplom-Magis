@@ -690,8 +690,8 @@
       \strng{authornamehash}{c282c90f87c7115ef8ba3135de19fda8}
       \strng{authorfullhash}{a453f7fd1edab9e5ee1c6060c75364b4}
       \strng{authorfullhashraw}{a453f7fd1edab9e5ee1c6060c75364b4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{internalsortvolume}{75}
       \field{journaltitle}{Journal of Network and Computer Applications}
@@ -787,92 +787,74 @@
       \field{volume}{29}
       \range{volume}{1}
     \endentry
-    \entry{20}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=35663f1f3cc3203c0be2ad2646050e37}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Ye},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=fdbbde430335ebbbb1b98b8f1e5de765}{%
-           family={Shen},
-           familyi={S\bibinitperiod},
-           given={Xuanjing},
-           giveni={X\bibinitperiod}}}%
-        {{hash=2eb32527c6c4c7beb550517fcc12f99f}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Haipeng},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{6f641144fe29097af4069b52480abc91}
-      \strng{fullhash}{6f641144fe29097af4069b52480abc91}
-      \strng{fullhashraw}{6f641144fe29097af4069b52480abc91}
-      \strng{bibnamehash}{6f641144fe29097af4069b52480abc91}
-      \strng{authorbibnamehash}{6f641144fe29097af4069b52480abc91}
-      \strng{authornamehash}{6f641144fe29097af4069b52480abc91}
-      \strng{authorfullhash}{6f641144fe29097af4069b52480abc91}
-      \strng{authorfullhashraw}{6f641144fe29097af4069b52480abc91}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{internalsortvolume}{75}
-      \field{journaltitle}{Multimedia Tools and Applications}
-      \field{title}{Copy-move forgery detection based on scaled ORB}
-      \field{year}{2016}
-      \field{number}{6}
-      \range{number}{1}
-      \field{pages}{3221\bibrangedash 3233}
-      \range{pages}{13}
-      \field{volume}{75}
-      \range{volume}{1}
-    \endentry
-    \entry{21}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=0825b830a22ddec345996698ba6fd655}{%
-           family={Farhan},
-           familyi={F\bibinitperiod},
-           given={Mahmoud\bibnamedelima H},
-           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=55cc9cb3a4a3890ba8233ebe66a9d480}{%
-           family={Shaker},
-           familyi={S\bibinitperiod},
-           given={Khalid},
-           giveni={K\bibinitperiod}}}%
-        {{hash=15f1a1ad36767b24c06c5bd810ba470e}{%
-           family={Al-Janabi},
-           familyi={A\bibinithyphendelim J\bibinitperiod},
-           given={Sufyan},
+    \entry{11111}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=41520bfcb251a316c93bb34d81aa0b99}{%
+           family={Kaura},
+           familyi={K\bibinitperiod},
+           given={Wing\bibnamedelimb Commander\bibnamedelima Nimit},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=966145b5cd90008aea47703539773844}{%
+           family={Dhavale},
+           familyi={D\bibinitperiod},
+           given={Sunita},
            giveni={S\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{e5a87c81b032f83e4895c2b776cf5baf}
-      \strng{fullhash}{e5a87c81b032f83e4895c2b776cf5baf}
-      \strng{fullhashraw}{e5a87c81b032f83e4895c2b776cf5baf}
-      \strng{bibnamehash}{e5a87c81b032f83e4895c2b776cf5baf}
-      \strng{authorbibnamehash}{e5a87c81b032f83e4895c2b776cf5baf}
-      \strng{authornamehash}{e5a87c81b032f83e4895c2b776cf5baf}
-      \strng{authorfullhash}{e5a87c81b032f83e4895c2b776cf5baf}
-      \strng{authorfullhashraw}{e5a87c81b032f83e4895c2b776cf5baf}
+      \strng{namehash}{e77e5dc63bfa30b52160787877af7a26}
+      \strng{fullhash}{e77e5dc63bfa30b52160787877af7a26}
+      \strng{fullhashraw}{e77e5dc63bfa30b52160787877af7a26}
+      \strng{bibnamehash}{e77e5dc63bfa30b52160787877af7a26}
+      \strng{authorbibnamehash}{e77e5dc63bfa30b52160787877af7a26}
+      \strng{authornamehash}{e77e5dc63bfa30b52160787877af7a26}
+      \strng{authorfullhash}{e77e5dc63bfa30b52160787877af7a26}
+      \strng{authorfullhashraw}{e77e5dc63bfa30b52160787877af7a26}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{internalsortvolume}{83}
-      \field{journaltitle}{Multimedia Tools and Applications}
-      \field{title}{Copy--move forgery detection in digital image forensics: A survey}
-      \field{year}{2024}
-      \field{number}{28}
-      \range{number}{1}
-      \field{pages}{70603\bibrangedash 70635}
-      \range{pages}{33}
-      \field{volume}{83}
+      \field{booktitle}{2017 International Conference on Innovations in Information, Embedded and Communication Systems (ICIIECS)}
+      \field{title}{Analysis of SIFT and SURF features for copy-move image forgery detection}
+      \field{year}{2017}
+    \endentry
+    \entry{11112}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=6fd57a6b6ba26c8a324f2c603ee63e4b}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Hailing},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9fd3d8cec07919768192e90adc41642b}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Weiqiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9a4f4a1ff661cd600eb26523a5ba8bb4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{db899c6bf918257a0a17547cbf01e40a}
+      \strng{fullhash}{db899c6bf918257a0a17547cbf01e40a}
+      \strng{fullhashraw}{db899c6bf918257a0a17547cbf01e40a}
+      \strng{bibnamehash}{db899c6bf918257a0a17547cbf01e40a}
+      \strng{authorbibnamehash}{db899c6bf918257a0a17547cbf01e40a}
+      \strng{authornamehash}{db899c6bf918257a0a17547cbf01e40a}
+      \strng{authorfullhash}{db899c6bf918257a0a17547cbf01e40a}
+      \strng{authorfullhashraw}{db899c6bf918257a0a17547cbf01e40a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{2}
+      \field{title}{Detection of copy-move forgery in digital images using SIFT algorithm}
+      \field{year}{2008}
+      \field{pages}{272\bibrangedash 276}
+      \range{pages}{5}
+      \field{volume}{2}
       \range{volume}{1}
     \endentry
     \entry{22}{inproceedings}{}{}
@@ -978,8 +960,8 @@
       \strng{authornamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorfullhashraw}{f23ccc5160c62c7866172335b2c76e11}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
@@ -1014,8 +996,8 @@
       \strng{authornamehash}{9fbff7abf92e9cfb0e0e6d32f2305b9a}
       \strng{authorfullhash}{293fc54a1588dcb1f48c16d1f2cead91}
       \strng{authorfullhashraw}{293fc54a1588dcb1f48c16d1f2cead91}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{title}{Learning Rich Features for Image Manipulation Detection}
       \field{year}{2018}
@@ -1046,8 +1028,8 @@
       \strng{authornamehash}{06d90a699fdb74e0af2e26f54361d46d}
       \strng{authorfullhash}{06d90a699fdb74e0af2e26f54361d46d}
       \strng{authorfullhashraw}{06d90a699fdb74e0af2e26f54361d46d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{internalsortvolume}{7}
@@ -1160,15 +1142,15 @@
       \field{title}{Библиотека streamlit.}
     \endentry
     \entry{window}{misc}{}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{howpublished}{Режим доступа URL: \url{https://tehnichka.pro/windows-10-home-for-one-language/} (дата обращения: 23.04.2026)}
       \field{title}{Windows 10 «Домашняя для одного языка»}
     \endentry
     \entry{cpu}{misc}{}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{howpublished}{Режим доступа URL: \url{https://www.notebookcheck-ru.com/Intel-Core-i5-1135G7-Testirovanie-processora.507554.0.html} (дата обращения: 23.04.2026)}
       \field{title}{Intel Core i5-1135G7}

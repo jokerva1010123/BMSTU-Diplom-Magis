@@ -5,13 +5,12 @@ import numpy as np
 import cv2
 from PIL import Image
 import time
-import io  # Thêm import này để fix lỗi download
+import io
 
 # Import model
 import Movenet7f4attention_adaption
 
 st.set_page_config(page_title="Image Forgery Localization", layout="wide")
-# st.title("Image Forgery Localization")
 st.title("**Метод обнаружения фальсифицированного фрагмента на изображении**")
 
 # ====================== LOAD MODEL ======================
@@ -31,12 +30,13 @@ model, device = load_model()
 
 # ====================== SIDEBAR ======================
 st.sidebar.header("Настройка")
-# threshold = st.sidebar.slider("Heatmap", 0.0, 1.0, 0.5, 0.05)
 alpha = st.sidebar.slider("Интенсивность цвета тепловой карты", 
-                                    min_value=0.1, max_value=0.9, 
-                                    value=0.40, step=0.05)
+                          min_value=0.1, max_value=0.9, 
+                          value=0.40, step=0.05)
+
 # ====================== UPLOAD ======================
-uploaded_file = st.file_uploader("Загрузить изображение для проверки", type=["jpg", "jpeg", "png", "tiff", "tif"])
+uploaded_file = st.file_uploader("Загрузить изображение для проверки", 
+                                 type=["jpg", "jpeg", "png", "tiff", "tif"])
 
 if uploaded_file is not None:
     # Đọc ảnh
@@ -46,9 +46,9 @@ if uploaded_file is not None:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Загруженное изображение")
-        st.image(image, width="stretch")
+        st.image(image, width = "stretch")
 
-    # Nút phân tích
+    # Нút phân tích
     if st.button("Обнаружить фальсификации", type="primary", use_container_width=True):
         with st.spinner("Анализ изображения..."):
             start_time = time.time()
@@ -71,6 +71,11 @@ if uploaded_file is not None:
             # Resize về kích thước gốc
             mask_resized = cv2.resize(mask, orig_size, interpolation=cv2.INTER_NEAREST)
             
+            # ==================== РАСЧЁТ ПРОЦЕНТА ====================
+            total_pixels = mask_resized.shape[0] * mask_resized.shape[1]
+            forged_pixels = np.sum(mask_resized)
+            percentage = (forged_pixels / total_pixels) * 100
+            
             # Tạo Heatmap
             heatmap_gray = (mask_resized * 255).astype(np.uint8)
             heatmap = cv2.applyColorMap(heatmap_gray, cv2.COLORMAP_JET)
@@ -78,26 +83,34 @@ if uploaded_file is not None:
             
             # Tạo Overlay
             orig_np = np.array(image)
-            
             overlay = cv2.addWeighted(orig_np, 1 - alpha, heatmap, alpha, 0)
             
-            st.success(f"Обнаружение завершено за **{inference_time:.3f} сек**")
+            # ====================== ВЫВОД РЕЗУЛЬТАТА ======================
+            if percentage < 0.01:  # Почти 0%
+                st.success("**Не обнаружено фрагментов подделки**")
+                st.info("Модель не выявила подозрительных областей на изображении.")
+            else:
+                st.success(f"Обнаружение завершено за **{inference_time:.3f} сек**")
+                st.metric(
+                    label="Площадь фальсификации",
+                    value=f"{percentage:.2f}%",
+                    delta=f"{forged_pixels:,} пикселей"
+                )
             
             # ====================== HIỂN THỊ KẾT QUẢ ======================
             col1, col2, col3 = st.columns(3)
             
             with col1:
                 st.subheader("Загруженное изображение")
-                st.image(image, width="stretch")
+                st.image(image, width = "stretch")
             
             with col2:
                 st.subheader("Тепловая карта")
-                st.image(heatmap, width="stretch")
-                # st.caption("****")
+                st.image(heatmap, width = "stretch")
             
             with col3:
                 st.subheader("Наложение тепловой карты")
-                st.image(overlay, width="stretch")
+                st.image(overlay, width = "stretch")
             
             # ====================== DOWNLOAD ======================
             st.subheader("Загрузить результат")

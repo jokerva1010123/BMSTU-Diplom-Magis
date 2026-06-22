@@ -230,15 +230,15 @@ def create_comparison_image_no_edit(img_fn, gt_mask_fn, model_path, device="cpu"
     ax[2].set_title("Без слоев адаптации признаков")
 
     ax[3].imshow(fal_masks['off'])
-    ax[3].set_title("Слои адаптации признаков как блоки свертки")
+    ax[3].set_title("Слои адаптации признаков \nкак блоки свертки")
 
     ax[4].imshow(fal_masks['resblock'])
-    ax[4].set_title("Слои адаптации признаков как остаточные блоки")
+    ax[4].set_title("Слои адаптации признаков \nкак остаточные блоки")
 
     for a in ax:
         a.axis('off')
     plt.tight_layout()
-    plt.savefig("figures/fal_test2.png", dpi=400, bbox_inches='tight')
+    plt.savefig("figures/fal_test1.png", dpi=400, bbox_inches='tight')
     plt.show()
 
 
@@ -246,8 +246,10 @@ if __name__ == '__main__':
     torch.cuda.empty_cache()
     
     model_path = r'./model7f4attentionadaption-291000.pkl'
-    img_fn     = "./CASIA2/image/Tp_D_CNN_M_N_ani00052_ani00054_11130.jpg"
-    gt_mask_fn = "./CASIA2/groundtruths2/Tp_D_CNN_M_N_ani00052_ani00054_11130_gt.png"  
+    # img_fn     = "./CASIA2/image/Tp_D_CNN_M_B_nat10139_nat00059_11949.jpg"
+    # gt_mask_fn = "./CASIA2/groundtruths2/Tp_D_CNN_M_B_nat10139_nat00059_11949_gt.png"  
+    img_fn     = "./CASIA2/image/Tp_D_CNN_M_N_nat00013_cha00042_11093.jpg"
+    gt_mask_fn = "./CASIA2/groundtruths2/Tp_D_CNN_M_N_nat00013_cha00042_11093_gt.png"  
     # img_fn     = './IMD2020/image/4.jpg'
     # gt_mask_fn = './IMD2020/mask/4.png'   # ← sửa nếu đường dẫn khác
     

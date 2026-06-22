@@ -88,11 +88,11 @@
 \titleformat{\section}[block]
 % {\large\bfseries}{\thesection}{0.5em}{\large\raggedright}
 {\hspace{\parindent}\large\bfseries}{\thesection}{0.5em}{\large\raggedright}
-\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}.}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
 
 \titleformat{\subsection}[block]
 {\hspace{\parindent}\large\bfseries}{\thesubsection}{0.5em}{\large\raggedright}
-\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}.}
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
 
 \titleformat{\subsubsection}[block]
 {\hspace{\parindent}\large\bfseries}{\thesubsubsection}{0.5em}{\large\raggedright}
@@ -114,7 +114,7 @@
 ]{caption}
 
 \captionsetup[figure]{justification=centering}
-\captionsetup[table]{justification=raggedleft}
+\captionsetup[table]{justification=raggedright}
 \captionsetup[listing]{justification=raggedright}
 \usepackage{caption} %заголовки плавающих объектов
 

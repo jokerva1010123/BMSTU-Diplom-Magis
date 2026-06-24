@@ -2,15 +2,14 @@ import torch
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-from Movenet7f4attention_adaption import Movenet   # file model của bạn
+from model import Movenet   # file model của bạn
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# ====================== CẤU HÌNH (thay đường dẫn cho phù hợp) ======================
-WEIGHT_PATH = "model7f4attentionadaption-291000.pkl"          # ← ĐƯỜNG DẪN FILE .pth CỦA BẠN
+WEIGHT_PATH = "best_model.pkl"        
 INPUT_SIZE  = 384
-TEST_IMAGE  = "./CASIA2/image/Tp_D_CNN_M_N_ani00052_ani00054_11130.jpg"      # ← ảnh test
-GT_MASK     = "./CASIA2/groundtruths2/Tp_D_CNN_M_N_ani00052_ani00054_11130_gt.png"       # ← mask ground truth
+TEST_IMAGE  = "./CASIA2/image/Tp_D_CNN_M_N_ani00052_ani00054_11130.jpg"     
+GT_MASK     = "./CASIA2/groundtruths2/Tp_D_CNN_M_N_ani00052_ani00054_11130_gt.png"   
 
 # ====================== LOAD MODEL ======================
 def load_model():
@@ -22,17 +21,16 @@ def load_model():
 
 model = load_model()
 
-# Variant Full (có Attention)
+
 model_full = load_model()
 
-# Variant No Attention (dùng cho phần 1.2)
+
 model_no_att = load_model()
 model_no_att.att4 = torch.nn.Identity()
 model_no_att.att3 = torch.nn.Identity()
 model_no_att.att2 = torch.nn.Identity()
 model_no_att.att1 = torch.nn.Identity()
 
-# ====================== LOAD VÀ RESIZE ẢNH ======================
 img_bgr = cv2.imread(TEST_IMAGE)
 img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
 img_resized = cv2.resize(img_rgb, (INPUT_SIZE, INPUT_SIZE), interpolation=cv2.INTER_LINEAR)
@@ -46,18 +44,15 @@ tensor = torch.from_numpy(img_resized.transpose(2, 0, 1)).float().unsqueeze(0) /
 tensor = tensor.to(device)
 
 with torch.no_grad():
-    # Model eval() trả về trực tiếp mask (không phải tuple)
-    pred_full   = model_full(tensor).cpu().numpy()[0]      # shape: (H, W)
+    pred_full   = model_full(tensor).cpu().numpy()[0]    
     pred_no_att = model_no_att(tensor).cpu().numpy()[0]
 
-# ====================== OVERLAY ======================
 def overlay(image, mask, alpha=0.6):
     mask_col = cv2.cvtColor((mask * 255).astype(np.uint8), cv2.COLOR_GRAY2BGR)
     mask_col[:, :, 0] = 0      # xanh lá = vùng forged
     mask_col[:, :, 2] = 0
     return cv2.addWeighted(image, 1 - alpha, mask_col, alpha, 0)
 
-# ====================== VẼ HÌNH ======================
 fig, ax = plt.subplots(1, 4, figsize=(22, 6))
 
 ax[0].imshow(img_resized)

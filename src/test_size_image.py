@@ -12,13 +12,12 @@ from tqdm import tqdm
 warnings.filterwarnings("ignore", category=UserWarning, module="torch.serialization")
 
 # ====================== CONFIG ======================
-MODEL_PATH = './model7f4attentionadaption-291000.pkl'
+MODEL_PATH = './best_model.pkl'
 IMAGE_FOLDER = './CASIA2/image/'
 MASK_FOLDER = './CASIA2/groundtruths2/'
 OUTPUT_FOLDER = './results_exact/'
 CSV_PATH = './metrics_exact_size.csv'
 
-# Chỉ test những ảnh có kích thước gốc thuộc các size này
 TARGET_SIZES = [
    (384, 256),
    (256, 384),
@@ -33,7 +32,7 @@ def load_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
 
-    from Movenet7f4attention_adaption import Movenet
+    from model import Movenet
 
     model = Movenet([384, 384]).to(device)
     pretrain = torch.load(MODEL_PATH, map_location=device, weights_only=False)
@@ -44,7 +43,6 @@ def load_model():
     return model, device
 
 
-# ====================== METRICS ======================
 def compute_iou(pred, gt):
     pred = pred.flatten()
     gt = gt.flatten()
@@ -64,7 +62,6 @@ def compute_f1(pred, gt):
     return 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
 
 
-# ====================== INFERENCE (giống ap.py) ======================
 def predict_one(model, device, img_path):
     # Đọc ảnh gốc
     img_original = Image.open(img_path).convert('RGB')
@@ -87,7 +84,6 @@ def predict_one(model, device, img_path):
     return pred_original, orig_size
 
 
-# ====================== MAIN ======================
 def main():
     model, device = load_model()
     
@@ -102,7 +98,6 @@ def main():
     for img_name in tqdm(image_files, desc="Testing"):
         img_path = os.path.join(IMAGE_FOLDER, img_name)
         
-        # Lấy kích thước gốc
         try:
             with Image.open(img_path) as img:
                 orig_w, orig_h = img.size
@@ -110,11 +105,9 @@ def main():
         except:
             continue
 
-        # Chỉ test nếu kích thước gốc nằm trong TARGET_SIZES
         if (orig_w, orig_h) not in TARGET_SIZES:
             continue
 
-        # Tìm mask tương ứng
         base_name = os.path.splitext(img_name)[0]
         mask_candidates = [f for f in os.listdir(MASK_FOLDER) if base_name+"_gt" in f]
         if not mask_candidates:
@@ -150,7 +143,6 @@ def main():
         except Exception as e:
             print(f"❌ Error {img_name}: {e}")
 
-    # ====================== SAVE RESULTS ======================
     if not results:
         print("Không tìm thấy ảnh nào có kích thước phù hợp!")
         return

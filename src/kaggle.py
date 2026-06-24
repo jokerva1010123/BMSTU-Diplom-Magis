@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Full training script for Movenet with attention
-Includes: Model definition, training loop, metrics logging (IoU, F1, Precision, Recall, Accuracy)
-Loads images and masks from folders, automatically splits train/val
-Saves best model based on IoU
-"""
-
 import os
 import time
 import torch
@@ -27,18 +19,6 @@ warnings.filterwarnings("ignore")
 # ============================================================================
 
 class SegmentationDataset(Dataset):
-    """
-    Dataset for segmentation with images and masks from folders
-    Folder structure:
-        images_folder/
-            image1.jpg
-            image2.png
-            ...
-        masks_folder/
-            mask1.png
-            mask2.png
-            ...
-    """
     def __init__(self, image_paths, mask_paths, input_size=(384, 384)):
         self.image_paths = image_paths
         self.mask_paths = mask_paths
@@ -528,23 +508,7 @@ def evaluate_model(model, dataloader, device):
     return avg_metrics
 
 
-# ============================================================================
-# LOAD DATA FROM FOLDERS
-# ============================================================================
-
 def load_data_from_folders(images_folder, masks_folder, val_split=0.2, random_seed=42):
-    """
-    Load image and mask paths from folders and split into train/val
-    
-    Args:
-        images_folder: path to folder containing images
-        masks_folder: path to folder containing masks (same filenames as images)
-        val_split: validation split ratio (default 0.2 = 20% for validation)
-        random_seed: random seed for reproducibility
-    
-    Returns:
-        train_image_paths, train_mask_paths, val_image_paths, val_mask_paths
-    """
     # Get all image files
     image_extensions = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.tif')
     image_files = [f for f in os.listdir(images_folder) if f.lower().endswith(image_extensions)]
@@ -597,11 +561,6 @@ def load_data_from_folders(images_folder, masks_folder, val_split=0.2, random_se
     print(f"Validation samples: {len(val_img)}")
     
     return train_img, train_mask, val_img, val_mask
-
-
-# ============================================================================
-# TRAINING FUNCTION
-# ============================================================================
 
 def train():
     # ==================== CONFIGURATION ====================
@@ -831,10 +790,10 @@ def train():
             # Save best model
             if isinstance(model, nn.DataParallel):
                 torch.save(model.module, f'{save_model_path}/best_model_iou.pkl')
-                torch.save(model.module.state_dict(), f'{save_model_path}/best_model_state_dict.pkl')
+                torch.save(model.module.state_dict(), f'{save_model_path}/best_model.pkl')
             else:
                 torch.save(model, f'{save_model_path}/best_model_iou.pkl')
-                torch.save(model.state_dict(), f'{save_model_path}/best_model_state_dict.pkl')
+                torch.save(model.state_dict(), f'{save_model_path}/best_model.pkl')
             
             print(f"*** New best model saved! Val IoU: {best_val_iou:.4f} at epoch {epoch} ***")
         

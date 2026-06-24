@@ -8,7 +8,7 @@ import time
 import io
 
 # Import model
-import Movenet7f4attention_adaption
+import model
 
 st.set_page_config(page_title="Image Forgery Localization", layout="wide")
 st.title("**Метод обнаружения фальсифицированного фрагмента на изображении**")
@@ -16,10 +16,10 @@ st.title("**Метод обнаружения фальсифицированно
 # ====================== LOAD MODEL ======================
 @st.cache_resource
 def load_model():
-    model_path = "./model7f4attentionadaption-291000.pkl"
+    model_path = "./best_model.pkl"
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    model = Movenet7f4attention_adaption.Movenet([384, 384]).to(device)
+    model = model.Movenet([384, 384]).to(device)
     
     pretrain = torch.load(model_path, map_location=device, weights_only=False)
     model.load_state_dict(pretrain.state_dict(), strict=True)
@@ -158,4 +158,4 @@ if uploaded_file is not None:
 else:
     st.info("Пожалуйста, загрузите изображение для начала обнаружения фальсификаций.")
 
-# st.caption("Model: Movenet7f4attention_adaption | Input: 384×384")
+# st.caption("Model: model | Input: 384×384")

@@ -9,7 +9,7 @@ import warnings
 import types
 import matplotlib.pyplot as plt
 
-from Movenet7f4attention_adaption import Movenet
+from model import Movenet
 
 warnings.filterwarnings("ignore", category=UserWarning, module="torch.serialization")
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
@@ -245,7 +245,7 @@ def create_comparison_image_no_edit(img_fn, gt_mask_fn, model_path, device="cpu"
 if __name__ == '__main__':
     torch.cuda.empty_cache()
     
-    model_path = r'./model7f4attentionadaption-291000.pkl'
+    model_path = r'./best_model.pkl'
     # img_fn     = "./CASIA2/image/Tp_D_CNN_M_B_nat10139_nat00059_11949.jpg"
     # gt_mask_fn = "./CASIA2/groundtruths2/Tp_D_CNN_M_B_nat10139_nat00059_11949_gt.png"  
     img_fn     = "./CASIA2/image/Tp_D_CNN_M_N_nat00013_cha00042_11093.jpg"

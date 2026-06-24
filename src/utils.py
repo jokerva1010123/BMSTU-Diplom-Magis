@@ -9,7 +9,7 @@ import seaborn as sns
 from datetime import datetime
 import io
 def load_model(model_path, device='cpu'):
-    from Movenet7f4attention_adaption import Movenet
+    from model import Movenet
     model = Movenet([384, 384]).to(device)
     pretrain = torch.load(model_path, map_location=device, weights_only=False)
     model.load_state_dict(pretrain.state_dict(), strict=True)
@@ -35,9 +35,8 @@ def preprocess_mask(mask_path, size=(384, 384)):
     return gt_orig
 
 def compute_metrics(pred, gt):
-    """pred_mask và gt_mask là numpy binary (0/1)"""
     pred = (pred > 0).astype(np.uint8)
-    gt   = (gt   > 128).astype(np.uint8)   # threshold 128 cho mask thật
+    gt   = (gt   > 128).astype(np.uint8)
 
     TP = np.sum((pred == 1) & (gt == 1))
     FP = np.sum((pred == 1) & (gt == 0))

@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 os.makedirs('results/plots', exist_ok=True)
 
-model_path = './model7f4attentionadaption-291000.pkl'
+model_path = './best_model.pkl'
 device = 'cpu'
 model = load_model(model_path, device)
 

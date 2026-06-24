@@ -9,7 +9,7 @@ import cv2
 import matplotlib as plt
 # os.makedirs('results1/plots', exist_ok=True)
 
-# model_path = './model7f4attentionadaption-291000.pkl'
+# model_path = './best_model.pkl'
 # device = 'cpu'   # đổi thành 'cuda' nếu có GPU
 # model = load_model(model_path, device)
 

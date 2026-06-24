@@ -4,7 +4,7 @@ import cv2
 import time
 from PIL import Image
 import torch
-import Movenet7f4attention_adaption
+import model
 import numpy as np
 import warnings
 
@@ -13,7 +13,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 torch.nn.Module.dump_patches = True
 
 def test_one():
-    model_path = r'./model7f4attentionadaption-291000.pkl'
+    model_path = r'./best_model.pkl'
     img_fn = './IMD2020/image/4.jpg'  # ảnh 768x1024 của bạn
     
     # Đọc ảnh gốc
@@ -31,7 +31,7 @@ def test_one():
     print(f"Using device: {device}")
     
     # Khởi tạo model với kích thước 384x384
-    model = Movenet7f4attention_adaption.Movenet([384, 384]).to(device)
+    model = model.Movenet([384, 384]).to(device)
     
     # Load pretrained weights
     pretrain = torch.load(model_path, map_location=torch.device(device), weights_only=False)

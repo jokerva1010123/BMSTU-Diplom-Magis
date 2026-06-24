@@ -1,21 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 24 10:05:07 2019
-
-@author: HuangYu
-"""
-
 import os
 import time
 import torch
-import Movenet7f4attention_adaption
+import model
 import numpy as np
 import torch.optim as optim
 import extra_data_coco_dataset_move_edge_edge as dataset
 from torch.utils.data import DataLoader
 import torch.nn.functional as F
 os.environ['CUDA_VISIBLE_DEVICES'] = "0,1"
-
 
 def calIOU(img1, img2):
     Area1 = np.sum(img1)
@@ -37,19 +29,15 @@ def train():
     if not os.path.isdir(save_model_path): os.makedirs(save_model_path)
     fid = open('./log/7f4m_snapshot7f4attention_all%s.txt'%(time.time()),'wt')
 
-    #torch.manual_seed(1)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")    
-    # dataset_train = dataset.dataset('/data/zyl/cpmove/cocodataset/train/384/images', '/data/zyl/cpmove/cocodataset/train/train_ann.json','/data/zyl/cpmove/cocodataset/train/384_cpmove_mask')
-    # dataset_train = dataset.dataset('/data/zyl/cpmove/cocodataset/train/384/images', '/data/zyl/cpmove/cocodataset/train/train_ann.json', '/data/zyl/cpmove/cocodataset/train/384_cpmove_mask',
-    #                '/data/zyldata/RRU-Net/data/Aualldata_384', '/data/zyldata/RRU-Net/data/Aualldata_384/ data_384.txt',ext_root_folder2=None)
+
     dataset_train = dataset.dataset('/data/zyldata/RRU-Net/data/spliced_data_train',
                                     '/data/zyldata/RRU-Net/data/spliced_data_train/ trainall.txt')
     train_loader = DataLoader(dataset_train, batch_size=batch_size, shuffle=True, drop_last=True, num_workers=4, pin_memory=False)
     
 
-    model = Movenet7f4attention_adaption.Movenet([384,384]).to(device)
+    model = model.Movenet([384,384]).to(device)
     print(model)
-    #model = torch.nn.DataParallel(model, device_ids=device_ids)
     st = 0
     pretrain = torch.load('./all-50w.pkl').to(device)
     model.load_state_dict(pretrain.state_dict(), strict=False)
@@ -76,16 +64,6 @@ def train():
             w1 = 0.2
             w2 = 0.8
             loss = loss1+w1*loss2+w2*loss3
-            '''
-            Temp = end.permute(0,2,3,1)
-            Temp = Temp.contiguous().view(-1, 2)
-            # 自定义softmax loss, label: onehot   
-            shape = data.size()
-            onehot_label = torch.zeros(shape[0]*shape[2]*shape[3],2).cuda().scatter_(1,label.long().view(-1,1),1)  
-            logits = -F.log_softmax(Temp, dim=1)        
-            loss1 = torch.sum(logits.mul(onehot_label), 1)           
-            loss = torch.mean(loss1)      
-            '''
             
             loss.backward()
             optimizer.step()
@@ -111,7 +89,6 @@ def train():
                 for i in range(batch_size):
                     ious1.append(calIOU(label2[i], predict1[i]))
                     ious2.append(calIOU(label2[i], predict2[i]))
-                    #ious3.append(calIOU(data_edge2[i], predict3[i]))
                 print('Epoch:[%d/%d %d]\tlr: %f\tLoss: %0.6f\tIOU: %0.4f,%0.4f,%0.4f\ttime: %0.1fs'%(
                     epoch, epochs, idx+st, lr, loss.item(), np.mean(ious1),np.mean(ious2),np.mean(ious3), time.time()-t0))
                 fid.write('Epoch:[%d/%d %d]\tlr: %f\tLoss: %0.6f\tIOU: %0.4f,%0.4f,%0.4f\ttime: %0.1fs\n'%(
